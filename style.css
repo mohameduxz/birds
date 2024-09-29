@@ -10,8 +10,12 @@ body {
     align-items: flex-start;
     justify-content: center;
     flex-wrap: wrap;
+    align-content: flex-start;
+    display: flex;
+    flex-direction: column;
 }
 .container {
+    width: -webkit-fill-available;
     height: var(--tg-viewport-stable-height, 100vh);
     /* background-color: white; */
     background: rgb(103,119,254);
